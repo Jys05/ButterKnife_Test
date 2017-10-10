@@ -12,7 +12,8 @@ public  class MyActivity extends BaseActivity {
     }
 
     @Override
-    protected void initCon() {
+    protected void initComponent() {
 
     }
+
 }

@@ -20,8 +20,8 @@ public class MainActivity extends MyActivity {
     }
 
     @Override
-    protected void initCon() {
-        super.initCon();
+    protected void initComponent() {
+        super.initComponent();
         mTv.setText("Library中配置ButterKnife");
     }
 }
