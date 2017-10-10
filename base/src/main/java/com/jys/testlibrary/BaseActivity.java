@@ -16,10 +16,10 @@ public abstract class BaseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(layoutId());
         ButterKnife.bind(this);
-        initCon();
+        initComponent();
     }
 
     protected abstract int layoutId();
 
-    protected abstract void initCon();
+    protected abstract void initComponent();
 }
